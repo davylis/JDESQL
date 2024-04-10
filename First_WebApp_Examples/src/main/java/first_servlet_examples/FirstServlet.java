@@ -30,7 +30,7 @@ public class FirstServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		// 2. Write the text to the response (to be sent to the browser)
-		out.println("First servlet says hello!");
+		out.println("First servlet says h!");
 	}
 	
 }
