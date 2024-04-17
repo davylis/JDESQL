@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="./studentAdd.js"></script>
 <meta charset="UTF-8">
 <title>Click here to add student</title>
 </head>
@@ -9,5 +10,24 @@
 	<form id ="formStudent">
 	<label for = "fid">Id:</label><br>
 	<input type = "text" id="id"><br>
+	
+	<label for = "fid">First name:</label><br>
+	<input type = "text" id="firstname"><br>
+	
+	<label for = "fid">Last name:</label><br>
+	<input type = "text" id="lastname"><br>
+	
+	<label for = "fid">Street address:</label><br>
+	<input type = "text" id="streetaddress"><br>
+	
+	<label for = "fid">Postcode:</label><br>
+	<input type = "text" id="postcode"><br>
+	
+	<label for = "fid">Post office:</label><br>
+	<input type = "text" id="postoffice"><br><br><br>
+	
+	<input type="button" value="Add student" onclick="addStudent()">
+	</form>
+	
 </body>
 </html>
