@@ -1,5 +1,4 @@
 function addStudent() {
-	console.log("addStudent()");
 	//get input values
 	var id = document.getElementById("id").value;
 	var firstname = document.getElementById("firstname").value;
